@@ -1,0 +1,75 @@
+body
+ {
+    background: repeating-linear-gradient(90deg,#4AFFFF, #4AFFFF 0.2vw, transparent 0.2vw, transparent 0.7vw, #4AFFFF 0.7vw, #4AFFFF 0.9vw, #FFE5E2 0.9vw, #FFE5E2 7.6vw, #4AFFFF 7.6vw, #4AFFFF 7.8vw, transparent 7.8vw, transparent 8.3vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+    color: #00BCB8;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 21px;
+    color: black;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+
+section {
+    display: flex; 
+}
+
+section div {
+    width: 25%;
+    text-align: center;
+    padding: 5vw;
+    color: #BA8681;
+}
+
+section div p {
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+section div:hover {
+    color: white;
+    background-color: #00B9B5;
+}
+
+img {
+    margin-bottom: 50px;
+    height: 4vw;
+}
+
+div:hover img {
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(326deg) brightness(105%) contrast(101%);
+}
+
+div:hover h2 {
+    color: white;
+}
+
+div.boss {
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+div.boss p:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #A98083;
+    font-size: 12px;
+}
+
+div.boss p:nth-child(3) {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #DCA9A4;
+    font-family: 'PT Sans', sans-serif;
+}
